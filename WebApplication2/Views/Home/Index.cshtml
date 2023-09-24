@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "RSPM Home Page";
+}
+<body style="background: url(https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-7-full.jpg)">
+</body>
+
+<div class="jumbotron text-center">
+
+    <h1>
+        <p2>WEB RETAIL SYSTEM MANAGEMENT</p2>
+    </h1>
+    <p class="lead">$You can manage all your data for your purchases, sales, customers and suppliers$</p>
+
+</div>
+<h1 class="caption">
+    .....................
+    @Html.ActionLink("Query1", "Index", "TableQuery1")|
+    @Html.ActionLink("Query2", "Index", "Tablequery2")|
+    @Html.ActionLink("Query3", "Index", "TableQuery3")|
+    @Html.ActionLink("Query4", "Index", "TableQuery4")|
+    @Html.ActionLink("Query5", "Index", "TableQuery5")|
+    ......................
+</h1>
+<div class="col-lg-pull-0">
+    <h1 class="lead">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Choose here what you looking for~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Customers", "Index", "Customers")</h2>     
+        <h2>@Html.ActionLink("CustomerDemographics", "Index", "CustomerDemographics")</h2>
+        <h2>@Html.ActionLink("Orders", "Index", "Orders")</h2>
+        <h2>@Html.ActionLink("Order_Detail", "Index", "Order_Detail")</h2>
+        <h2>@Html.ActionLink("Categories", "Index", "Categories")</h2>
+        <h2>@Html.ActionLink("Employees", "Index", "Employees")</h2>
+        <h2>@Html.ActionLink("Products", "Index", "Products")</h2>
+        <h2>@Html.ActionLink("Regions", "Index", "Regions")</h2>
+        <h2>@Html.ActionLink("Shippers", "Index", "Shippers")</h2>
+        <h2>@Html.ActionLink("Supliers", "Index", "Suppliers")</h2>
+        <h2>@Html.ActionLink("Territories", "Index", "Territories")</h2>
+    </div>
+</div>
